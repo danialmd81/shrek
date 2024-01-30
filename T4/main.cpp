@@ -446,8 +446,7 @@ void assembly2bin(string str)
 
 int main(int argc, char const *argv[])
 {
-    ifstream ifile("input.dat");
-    // ifstream ifile(argv[1]);
+    ifstream ifile(argv[1]);
     while (ifile.good())
     {
         string in, string;
